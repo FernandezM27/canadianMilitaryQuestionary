@@ -1,0 +1,120 @@
+body {
+  background: #222;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+  color: rgb(247, 27, 45);
+}
+
+main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#slideshow {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#slideshow img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+#mainImage{
+  border-radius: 15px;
+  width: 800px;
+  height: 400px;
+}
+
+.rounded-button {
+  background-color: #013368; /* Blue background */
+  border: none; /* Remove border */
+  color: rgb(233, 78, 17); /* White text */
+  padding: 10px 20px; /* Padding inside the button */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline from text */
+  display: inline-block; /* Keep it inline */
+  font-size: 16px; /* Font size */
+  margin: 10px 0; /* Margin for spacing */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  border-radius: 25px; /* Rounded edges */
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+/* Button hover effect */
+.rounded-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Hide the default radio buttons */
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Custom radio button design */
+input[type="radio"] + label {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  font-size: 22px;
+  color: red; /* Red text color for labels */
+  cursor: pointer;
+}
+
+/* Create custom radio button */
+input[type="radio"] + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 25px;
+  height: 25px;
+  background-color: #fff; /* White background for the button */
+  border: 2px solid #007BFF; /* Blue border for unselected radio button */
+  border-radius: 50%; /* Make it round */
+}
+
+/* Radio button when checked */
+input[type="radio"]:checked + label:before {
+  background-color: #007BFF; /* Blue background for selected button */
+  border-color: #007BFF; /* Keep the blue border */
+}
+
+input[type="radio"]:checked + label:after {
+  content: "";
+  position: absolute;
+  left: 9px;
+  top: 9px;
+  width: 8px;
+  height: 8px;
+  background-color: white; /* White dot inside the selected button */
+  border-radius: 50%;
+}
+
+/* On hover */
+input[type="radio"] + label:hover:before {
+  background-color: #ddd; /* Change background color on hover */
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}

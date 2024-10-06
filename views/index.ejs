@@ -1,0 +1,28 @@
+<%- include('./partials/header.ejs') %>
+
+    <% if(!locals.questions) { %>
+        
+        <div id="slideshow">
+            <img id="mainImage" src="/images/army.jpg" alt="Canada Logo">
+        </div>
+        
+        <h1>Welcome to Canadian Military History Quiz</h1>
+        <form action="/start" method="POST">
+            <input class="rounded-button" type="submit" value="Start">
+        </form>
+        
+        <script type="text/javascript" src="/js/slidePhoto.js"></script>    
+    <% } else { %>
+
+        <h3><%= questions.question %></h3>
+        <form action="/next" method="POST">
+            <% for(let x = 0; x < questions.options.length; x++){ %>
+                <input type="radio" id="<%= questions.options[x] %>" name="options" value="<%= questions.options[x] %>">
+                <label for="<%= questions.options[x] %>"><%= questions.options[x] %></label><br>
+            <% } %>
+            
+            <input class="rounded-button" type="submit" value="Next">
+        </form>
+    <% } %>
+
+<%- include('./partials/footer.ejs') %>

@@ -1,0 +1,32 @@
+<%- include('./partials/header.ejs') %>
+    <div id="slideshow">
+        <img id="mainImage" src="/images/army.jpg" alt="Canada Logo">
+    </div>
+    
+    <% let percentScore = ( score/totalQuestions ) * 100 %>
+    
+    <% switch (true) {
+        case (percentScore <= 50): %>
+            <h1>Uy que malo</h1>
+            <h1><%= percentScore %>%</h1>
+            <% break;
+
+        case (percentScore <= 80): %>
+            <h1>No esta mal pero puede mejorar</h1>
+            <h1><%= percentScore %>%</h1>
+            <% break;
+
+        case (percentScore >= 90 ): %>
+            <h1>Perfecto si save</h1>
+            <h1><%= percentScore %>%</h1>
+            <% break;
+            
+        default:%>
+            <%= 'Invalid Value' %>
+            <% break; 
+    } %>
+    <form action="/restart" method="POST">
+        <input class="rounded-button" type="submit" value="Start">
+    </form>
+    
+<%- include('./partials/footer.ejs') %>

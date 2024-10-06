@@ -1,0 +1,102 @@
+[
+    {
+        "question": "When did Canada officially join World War I?",
+        "options": [
+            "1912",
+            "1914",
+            "1916",
+            "1918"
+        ],
+        "answer": "1914"
+    },
+    {
+        "question": "Which battle is often considered a defining moment in Canadian military history during World War I?",
+        "options": [
+            "Battle of the Somme",
+            "Battle of Vimy Ridge",
+            "Battle of Verdun",
+            "Battle of Ypres"
+        ],
+        "answer": "Battle of Vimy Ridge"
+    },
+    {
+        "question": "In which year did Canada declare war on Germany during World War II?",
+        "options": [
+            "1939",
+            "1940",
+            "1941",
+            "1942"
+        ],
+        "answer": "1939"
+    },
+    {
+        "question": "Which Canadian city was the site of a German U-boat attack during World War II?",
+        "options": [
+            "Halifax",
+            "St. John’s",
+            "Montreal",
+            "Quebec City"
+        ],
+        "answer": "Halifax"
+    },
+    {
+        "question": "What was the codename for the Canadian military's participation in the D-Day invasion of Normandy?",
+        "options": [
+            "Operation Overlord",
+            "Operation Husky",
+            "Operation Torch",
+            "Operation Jubilee"
+        ],
+        "answer": "Operation Overlord"
+    },
+    {
+        "question": "Canada’s military involvement in peacekeeping began in earnest with which crisis?",
+        "options": [
+            "The Korean War",
+            "The Vietnam War",
+            "The Suez Crisis",
+            "The Falklands War"
+        ],
+        "answer": "The Suez Crisis"
+    },
+    {
+        "question": "During which war did the Royal Canadian Navy reach its peak size, becoming the third largest navy in the world?",
+        "options": [
+            "World War I",
+            "World War II",
+            "The Korean War",
+            "The Cold War"
+        ],
+        "answer": "World War II"
+    },
+    {
+        "question": "Which Canadian general was in command of the United Nations Assistance Mission for Rwanda (UNAMIR) during the Rwandan Genocide in 1994?",
+        "options": [
+            "Roméo Dallaire",
+            "Andrew Leslie",
+            "Walter Natynczyk",
+            "Rick Hillier"
+        ],
+        "answer": "Roméo Dallaire"
+    },
+    {
+        "question": "What was the first major battle fought by Canadian forces in the Korean War?",
+        "options": [
+            "Battle of Hill 355",
+            "Battle of Kapyong",
+            "Battle of Imjin River",
+            "Battle of Inchon"
+        ],
+        "answer": "Battle of Kapyong"
+    },
+    {
+        "question": "Canada's last major military operation in Afghanistan was named:",
+        "options": [
+            "Operation Medusa",
+            "Operation Apollo",
+            "Operation Desert Storm",
+            "Operation Enduring Freedom"
+        ],
+        "answer": "Operation Medusa"
+    }
+]
